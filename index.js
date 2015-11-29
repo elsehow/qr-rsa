@@ -1,3 +1,5 @@
+#!/usr/bin/env node 
+
 var qr = require('qr-image')
   , exec = require('child_process').exec
 

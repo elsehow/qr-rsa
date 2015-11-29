@@ -2,10 +2,10 @@
 
 var spawn = require('child_process').spawn
 
-// openssl genrsa 4096 | openssl rsa -pubout
 
-// 4096 RSA keypair
+// generates a private key
 var genrsa = spawn('openssl', ['genrsa', '2048'])
+// generates a public key given a private key
 var pubkey = spawn('openssl', ['rsa', '-pubout'])
 
 // private key -> stdout
