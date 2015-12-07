@@ -1,7 +1,7 @@
 {
   "name": "rsa-qr",
   "version": "1.0.0",
-  "description": "generate a QR code with a 2048-bit RSA keypair",
+  "description": "generate 2048-bit RSA keypair and output it to a QR code",
   "main": "index.js",
   "bin": {
     "rsa-qr": "./index.js"
