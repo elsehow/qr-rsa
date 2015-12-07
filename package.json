@@ -1,10 +1,10 @@
 {
-  "name": "rsa-qr",
+  "name": "qr-rsa",
   "version": "1.0.0",
   "description": "generate 2048-bit RSA keypair and output it to a QR code",
   "main": "index.js",
   "bin": {
-    "rsa-qr": "./index.js"
+    "qr-rsa": "./index.js"
   },
   "scripts": {
     "test": "node test/test.js"
@@ -13,5 +13,5 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "qr-image": "^3.1.0"
-  },
+  }
 }

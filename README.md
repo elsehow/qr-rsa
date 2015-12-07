@@ -1,14 +1,14 @@
-# rsa-qr
+# qr-rsa
 
 generate a QR code with a 4096-bit RSA keypair 
 
 ## installation
 
-    npm install -g rsa-qr
+    npm install -g qr-rsa
 
 ## usage
 
-    rsa-qr > file.svg
+    qr-rsa > file.svg
 
 ## license
 
