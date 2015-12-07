@@ -17,7 +17,7 @@ function write_svg_qr (data) {
 exec('./rsa-gen.js', function (err, pksk) {
   if (err) 
     console.log('ERR!', err)
-  write_svg_qr(pksk)
+  write_svg_qr(pksk.toString())
   return
 })
  
